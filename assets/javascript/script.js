@@ -41,7 +41,8 @@
     var computerPicked = false;
     var intervalid;
     var gameRunning = false;
-
+    var audio = new Audio('sly.mp3')
+    
     //new/reset function
     function newGame() {
         gameRoster = [...characterList];
@@ -51,9 +52,10 @@
         gameRunning = true;
         playerPicked = false;
         computerPicked = false;
-
+        audio.play().loop;
         $("#character-grid").hide();
         printCharacters(gameRoster);
+        
     }
 
     //print character list
