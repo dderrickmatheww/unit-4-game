@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+
     // default character data
     var characterList = [
         {
@@ -176,7 +176,6 @@ $( document ).ready(function() {
             alert("You need to pick a player!")
         }
     })
-
+    newGame();
     
-})
-newGame();
+
