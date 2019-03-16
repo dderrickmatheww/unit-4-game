@@ -1,4 +1,4 @@
-
+$( document ).ready(function() {
     // default character data
     var characterList = [
         {
@@ -178,4 +178,4 @@
     })
 
     newGame();
-    
+})
