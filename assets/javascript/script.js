@@ -5,7 +5,7 @@
             name: "Sly Cooper",
             code: 'sly',
             health: 150,
-            pic: "../unit-4-game-master/assets/images/sly.jpg",
+            pic: "../unit-4-game/assets/images/sly.jpg",
             moveSet: [{
                 name:"Cane Wack",
                 attack:8, // damage done to opponent
@@ -23,7 +23,7 @@
             name: "Clockwerk",
             code: 'clk',
             health: 180,
-            pic: "../unit-4-game-master/assets/images/Clockwerkmetal.png",
+            pic: "../unit-4-game/assets/images/Clockwerkmetal.png",
             moveSet: [{
                 name:"Bird Breath",
                 attack:8,
@@ -41,7 +41,7 @@
             name: "Murray",
             code: 'mur',
             health: 120,
-            pic: "../unit-4-game-master/assets/images/murray.jpg",
+            pic: "../unit-4-game/assets/images/murray.jpg",
             moveSet: [{
                 name:"Sucka Punch",
                 attack:8,
@@ -59,7 +59,7 @@
             name: "Dimitri Lousteau",
             code: 'dim',
             health: 100,
-            pic: "../unit-4-game-master/assets/images/dimitrilousteau.jpg",
+            pic: "../unit-4-game/assets/images/dimitrilousteau.jpg",
             moveSet: [{
                 name:"Elbow Smack",
                 attack:8,
